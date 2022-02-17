@@ -15,7 +15,8 @@ body{
 }
 
 header{
-    height: 25px;
+    height: 80px;
+    background-color: rgba(0, 255, 255, 0.068);
 }
 h1{
     padding-top: 10px; 
@@ -28,6 +29,8 @@ h1{
 
 
 .main-game {
+    background-image: url('image/fruits.png');
+    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     display: flex;
