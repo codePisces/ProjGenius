@@ -1,0 +1,4 @@
+Notas do Projeto GENIUS
+- É criada uma div pricipal
+- Uma div onde será rodado o game
+- Dentro da anterior 4 divs para representar as cores serão criadas
