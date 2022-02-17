@@ -6,11 +6,26 @@
     --corback01: rgb(219, 253, 242);
     --corback02: rgb(0, 0, 0);
 }
-
+*{
+    margin: 0;
+}
 body{
     margin: 0;
     background-color: var(--corback01);
 }
+
+header{
+    height: 25px;
+}
+h1{
+    padding-top: 10px; 
+    text-align: center;
+    color: rgb(3, 173, 117);
+    letter-spacing: 15px;
+    font-size: 3.2em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.267);
+}
+
 
 .main-game {
     height: 100vh;
@@ -28,25 +43,26 @@ body{
     border: 1px solid var(--corB01);
     background-color: var(--corback02);
     border-radius: 100%;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 .yellow {
     grid-area: 'yellow';
     background-color: rgb(255, 255, 35);
     border-top-left-radius: 100%;
+
 }
 
 .blue {
     grid-area: 'blue';
-    background-color: blue;
+    background-color: rgb(15, 71, 255);
     border-top-right-radius: 100%;
 }
 
 .red{
     grid-area: 'red';
-    background-color: red;
+    background-color: rgb(255, 42, 42);
     border-bottom-right-radius: 100%;
 }
 
@@ -57,5 +73,5 @@ body{
 }
 
 .selected{
-    opacity: 0.9;
+    opacity: 0.7;
 }
